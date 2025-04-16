@@ -1,0 +1,463 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1125pt" height="623pt" viewBox="0.00 0.00 1125.21 623.00">
+<g id="graph0" class="graph" transform="translate(4,619) scale(1)" data-name="complex.yaml">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-619 1121.21,-619 1121.21,4 -4,4" style=""/>
+<!-- root -->
+<g id="node1" class="node" pointer-events="visible" data-name="root">
+
+<polygon fill="lightblue" stroke="black" points="54,-452 0,-452 0,-416 54,-416 54,-452" style=""/>
+<text text-anchor="middle" x="27" y="-431" font-family="Arial" font-size="10.00" style="">(root)</text>
+</g>
+<!-- root__application -->
+<g id="node2" class="node" pointer-events="visible" data-name="root__application">
+
+<polygon fill="lightblue" stroke="black" points="196.75,-452 133.12,-452 133.12,-416 196.75,-416 196.75,-452" style=""/>
+<text text-anchor="middle" x="164.94" y="-431" font-family="Arial" font-size="10.00" style="">application</text>
+</g>
+<!-- root&#45;&gt;root__application -->
+<g id="edge35" class="edge" data-name="root-&gt;root__application">
+
+<path fill="none" stroke="black" d="M54.21,-434C74.45,-434 102.76,-434 125.55,-434" style=""/>
+<polygon fill="black" stroke="black" points="125.54,-436.1 131.54,-434 125.54,-431.9 125.54,-436.1" style=""/>
+<text text-anchor="middle" x="93.52" y="-436.7" font-family="Arial" font-size="9.00" style="">application</text>
+</g>
+<!-- root__application__name_value -->
+<g id="node3" class="node" pointer-events="visible" data-name="root__application__name_value">
+
+<text text-anchor="middle" x="300.49" y="-529" font-family="Arial" font-size="10.00" style="">ComplexApp</text>
+</g>
+<!-- root__application&#45;&gt;root__application__name_value -->
+<g id="edge1" class="edge" data-name="root__application-&gt;root__application__name_value">
+
+<path fill="none" stroke="black" d="M189.98,-452.37C197.87,-458.35 206.71,-464.99 214.84,-471 232.49,-484.03 252.39,-498.39 268.46,-509.9" style=""/>
+<polygon fill="black" stroke="black" points="266.86,-511.34 272.96,-513.12 269.3,-507.92 266.86,-511.34" style=""/>
+<text text-anchor="middle" x="230.35" y="-494.7" font-family="Arial" font-size="9.00" style="">name</text>
+</g>
+<!-- root__application__version_value -->
+<g id="node4" class="node" pointer-events="visible" data-name="root__application__version_value">
+
+<text text-anchor="middle" x="300.49" y="-464" font-family="Arial" font-size="10.00" style="">1.2.3</text>
+</g>
+<!-- root__application&#45;&gt;root__application__version_value -->
+<g id="edge2" class="edge" data-name="root__application-&gt;root__application__version_value">
+
+<path fill="none" stroke="black" d="M197.25,-441.74C218.08,-446.88 245.39,-453.63 266.54,-458.86" style=""/>
+<polygon fill="black" stroke="black" points="265.95,-460.88 272.28,-460.28 266.96,-456.8 265.95,-460.88" style=""/>
+<text text-anchor="middle" x="230.35" y="-455.7" font-family="Arial" font-size="9.00" style="">version</text>
+</g>
+<!-- root__application__settings -->
+<g id="node5" class="node" pointer-events="visible" data-name="root__application__settings">
+
+<polygon fill="lightblue" stroke="black" points="327.49,-420 273.49,-420 273.49,-384 327.49,-384 327.49,-420" style=""/>
+<text text-anchor="middle" x="300.49" y="-399" font-family="Arial" font-size="10.00" style="">settings</text>
+</g>
+<!-- root__application&#45;&gt;root__application__settings -->
+<g id="edge21" class="edge" data-name="root__application-&gt;root__application__settings">
+
+<path fill="none" stroke="black" d="M197.17,-424.87C203.02,-423.25 209.11,-421.62 214.84,-420.2 231.67,-416.02 250.51,-411.91 266.14,-408.66" style=""/>
+<polygon fill="black" stroke="black" points="266.15,-410.81 271.6,-407.54 265.3,-406.69 266.15,-410.81" style=""/>
+<text text-anchor="middle" x="230.35" y="-422.7" font-family="Arial" font-size="9.00" style="">settings</text>
+</g>
+<!-- root__application__plugins_list -->
+<g id="node24" class="node" pointer-events="visible" data-name="root__application__plugins_list">
+
+<polygon fill="lightgrey" stroke="black" points="335.34,-269 269.64,-269 265.64,-265 265.64,-233 331.34,-233 335.34,-237 335.34,-269" style=""/>
+<polyline fill="none" stroke="black" points="331.34,-265 265.64,-265" style=""/>
+<polyline fill="none" stroke="black" points="331.34,-265 331.34,-233" style=""/>
+<polyline fill="none" stroke="black" points="331.34,-265 335.34,-269" style=""/>
+<text text-anchor="middle" x="300.49" y="-248" font-family="Arial" font-size="10.00" style="">plugins (list)</text>
+</g>
+<!-- root__application&#45;&gt;root__application__plugins_list -->
+<g id="edge34" class="edge" data-name="root__application-&gt;root__application__plugins_list">
+
+<path fill="none" stroke="black" d="M179.23,-415.78C203.47,-382.57 254.83,-312.19 281.92,-275.07" style=""/>
+<polygon fill="black" stroke="black" points="283.32,-276.72 285.16,-270.64 279.92,-274.25 283.32,-276.72" style=""/>
+<text text-anchor="middle" x="230.35" y="-366.7" font-family="Arial" font-size="9.00" style="">plugins</text>
+</g>
+<!-- root__application__settings__ui -->
+<g id="node6" class="node" pointer-events="visible" data-name="root__application__settings__ui">
+
+<polygon fill="lightblue" stroke="black" points="461.14,-550 407.14,-550 407.14,-514 461.14,-514 461.14,-550" style=""/>
+<text text-anchor="middle" x="434.14" y="-529" font-family="Arial" font-size="10.00" style="">ui</text>
+</g>
+<!-- root__application__settings&#45;&gt;root__application__settings__ui -->
+<g id="edge5" class="edge" data-name="root__application__settings-&gt;root__application__settings__ui">
+
+<path fill="none" stroke="black" d="M321.6,-420.35C326.7,-425.08 332.14,-430.19 337.11,-435 362.49,-459.55 390.85,-488.38 410.13,-508.19" style=""/>
+<polygon fill="black" stroke="black" points="408.58,-509.6 414.26,-512.44 411.59,-506.68 408.58,-509.6" style=""/>
+<text text-anchor="middle" x="372.12" y="-486.7" font-family="Arial" font-size="9.00" style="">ui</text>
+</g>
+<!-- root__application__settings__backend -->
+<g id="node9" class="node" pointer-events="visible" data-name="root__application__settings__backend">
+
+<polygon fill="lightblue" stroke="black" points="461.14,-420 407.14,-420 407.14,-384 461.14,-384 461.14,-420" style=""/>
+<text text-anchor="middle" x="434.14" y="-399" font-family="Arial" font-size="10.00" style="">backend</text>
+</g>
+<!-- root__application__settings&#45;&gt;root__application__settings__backend -->
+<g id="edge20" class="edge" data-name="root__application__settings-&gt;root__application__settings__backend">
+
+<path fill="none" stroke="black" d="M327.81,-402C348.44,-402 377.28,-402 399.57,-402" style=""/>
+<polygon fill="black" stroke="black" points="399.34,-404.1 405.34,-402 399.34,-399.9 399.34,-404.1" style=""/>
+<text text-anchor="middle" x="372.12" y="-404.7" font-family="Arial" font-size="9.00" style="">backend</text>
+</g>
+<!-- root__application__settings__ui__theme_value -->
+<g id="node7" class="node" pointer-events="visible" data-name="root__application__settings__ui__theme_value">
+
+<text text-anchor="middle" x="598.71" y="-594" font-family="Arial" font-size="10.00" style="">dark</text>
+</g>
+<!-- root__application__settings__ui&#45;&gt;root__application__settings__ui__theme_value -->
+<g id="edge3" class="edge" data-name="root__application__settings__ui-&gt;root__application__settings__ui__theme_value">
+
+<path fill="none" stroke="black" d="M461.18,-542.71C467.08,-545.12 473.32,-547.66 479.14,-550 508.11,-561.67 541.16,-574.75 564.99,-584.14" style=""/>
+<polygon fill="black" stroke="black" points="564.01,-586.01 570.36,-586.26 565.55,-582.1 564.01,-586.01" style=""/>
+<text text-anchor="middle" x="509.66" y="-575.7" font-family="Arial" font-size="9.00" style="">theme</text>
+</g>
+<!-- root__application__settings__ui__font_size_value -->
+<g id="node8" class="node" pointer-events="visible" data-name="root__application__settings__ui__font_size_value">
+
+<text text-anchor="middle" x="598.71" y="-529" font-family="Arial" font-size="10.00" style="">12</text>
+</g>
+<!-- root__application__settings__ui&#45;&gt;root__application__settings__ui__font_size_value -->
+<g id="edge4" class="edge" data-name="root__application__settings__ui-&gt;root__application__settings__ui__font_size_value">
+
+<path fill="none" stroke="black" d="M461.62,-532C489.65,-532 533.97,-532 564.36,-532" style=""/>
+<polygon fill="black" stroke="black" points="564.26,-534.1 570.26,-532 564.26,-529.9 564.26,-534.1" style=""/>
+<text text-anchor="middle" x="509.66" y="-534.7" font-family="Arial" font-size="9.00" style="">font_size</text>
+</g>
+<!-- root__application__settings__backend__threads_value -->
+<g id="node10" class="node" pointer-events="visible" data-name="root__application__settings__backend__threads_value">
+
+<text text-anchor="middle" x="598.71" y="-464" font-family="Arial" font-size="10.00" style="">4</text>
+</g>
+<!-- root__application__settings__backend&#45;&gt;root__application__settings__backend__threads_value -->
+<g id="edge6" class="edge" data-name="root__application__settings__backend-&gt;root__application__settings__backend__threads_value">
+
+<path fill="none" stroke="black" d="M461.18,-412.71C467.08,-415.12 473.32,-417.66 479.14,-420 508.11,-431.67 541.16,-444.75 564.99,-454.14" style=""/>
+<polygon fill="black" stroke="black" points="564.01,-456.01 570.36,-456.26 565.55,-452.1 564.01,-456.01" style=""/>
+<text text-anchor="middle" x="509.66" y="-445.7" font-family="Arial" font-size="9.00" style="">threads</text>
+</g>
+<!-- root__application__settings__backend__cache_enabled_value -->
+<g id="node11" class="node" pointer-events="visible" data-name="root__application__settings__backend__cache_enabled_value">
+
+<text text-anchor="middle" x="598.71" y="-399" font-family="Arial" font-size="10.00" style="">True</text>
+</g>
+<!-- root__application__settings__backend&#45;&gt;root__application__settings__backend__cache_enabled_value -->
+<g id="edge7" class="edge" data-name="root__application__settings__backend-&gt;root__application__settings__backend__cache_enabled_value">
+
+<path fill="none" stroke="black" d="M461.62,-402C489.65,-402 533.97,-402 564.36,-402" style=""/>
+<polygon fill="black" stroke="black" points="564.26,-404.1 570.26,-402 564.26,-399.9 564.26,-404.1" style=""/>
+<text text-anchor="middle" x="509.66" y="-404.7" font-family="Arial" font-size="9.00" style="">cache_enabled</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list -->
+<g id="node12" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list">
+
+<polygon fill="lightgrey" stroke="black" points="639.24,-355 562.18,-355 558.18,-351 558.18,-319 635.24,-319 639.24,-323 639.24,-355" style=""/>
+<polyline fill="none" stroke="black" points="635.24,-351 558.18,-351" style=""/>
+<polyline fill="none" stroke="black" points="635.24,-351 635.24,-319" style=""/>
+<polyline fill="none" stroke="black" points="635.24,-351 639.24,-355" style=""/>
+<text text-anchor="middle" x="598.71" y="-334" font-family="Arial" font-size="10.00" style="">endpoints (list)</text>
+</g>
+<!-- root__application__settings__backend&#45;&gt;root__application__settings__backend__endpoints_list -->
+<g id="edge19" class="edge" data-name="root__application__settings__backend-&gt;root__application__settings__backend__endpoints_list">
+
+<path fill="none" stroke="black" d="M461.19,-391.43C467.09,-389.05 473.33,-386.53 479.14,-384.2 502.79,-374.71 529.13,-364.21 550.97,-355.54" style=""/>
+<polygon fill="black" stroke="black" points="551.68,-357.51 556.48,-353.34 550.13,-353.61 551.68,-357.51" style=""/>
+<text text-anchor="middle" x="509.66" y="-386.7" font-family="Arial" font-size="9.00" style="">endpoints</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0 -->
+<g id="node13" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_0">
+
+<polygon fill="lightblue" stroke="black" points="811.95,-481 757.95,-481 757.95,-445 811.95,-445 811.95,-481" style=""/>
+<text text-anchor="middle" x="784.95" y="-460" font-family="Arial" font-size="10.00" style="">item_0</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list&#45;&gt;root__application__settings__backend__endpoints_list__item_0 -->
+<g id="edge13" class="edge" data-name="root__application__settings__backend__endpoints_list-&gt;root__application__settings__backend__endpoints_list__item_0">
+
+<path fill="none" stroke="black" d="M626.5,-355.32C659.71,-378.03 716.25,-416.7 751.78,-441" style=""/>
+<polygon fill="black" stroke="black" points="750.33,-442.56 756.47,-444.21 752.7,-439.09 750.33,-442.56" style=""/>
+<text text-anchor="middle" x="677.24" y="-402.7" font-family="Arial" font-size="9.00" style="">0</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1 -->
+<g id="node19" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_1">
+
+<polygon fill="lightblue" stroke="black" points="811.95,-328 757.95,-328 757.95,-292 811.95,-292 811.95,-328" style=""/>
+<text text-anchor="middle" x="784.95" y="-307" font-family="Arial" font-size="10.00" style="">item_1</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list&#45;&gt;root__application__settings__backend__endpoints_list__item_1 -->
+<g id="edge18" class="edge" data-name="root__application__settings__backend__endpoints_list-&gt;root__application__settings__backend__endpoints_list__item_1">
+
+<path fill="none" stroke="black" d="M639.68,-331.14C672.8,-326.29 719.32,-319.47 750.5,-314.9" style=""/>
+<polygon fill="black" stroke="black" points="750.55,-317.02 756.18,-314.07 749.94,-312.86 750.55,-317.02" style=""/>
+<text text-anchor="middle" x="677.24" y="-330.7" font-family="Arial" font-size="9.00" style="">1</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0__path_value -->
+<g id="node14" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_0__path_value">
+
+<text text-anchor="middle" x="984.19" y="-562" font-family="Arial" font-size="10.00" style="">/api/v1/users</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0&#45;&gt;root__application__settings__backend__endpoints_list__item_0__path_value -->
+<g id="edge8" class="edge" data-name="root__application__settings__backend__endpoints_list__item_0-&gt;root__application__settings__backend__endpoints_list__item_0__path_value">
+
+<path fill="none" stroke="black" d="M812.14,-476.54C845.33,-493.71 902.9,-523.48 942,-543.7" style=""/>
+<polygon fill="black" stroke="black" points="940.95,-545.52 947.24,-546.41 942.88,-541.79 940.95,-545.52" style=""/>
+<text text-anchor="middle" x="900.42" y="-536.7" font-family="Arial" font-size="9.00" style="">path</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0__methods_list -->
+<g id="node15" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_0__methods_list">
+
+<polygon fill="lightgrey" stroke="black" points="1022.21,-518 950.18,-518 946.18,-514 946.18,-482 1018.21,-482 1022.21,-486 1022.21,-518" style=""/>
+<polyline fill="none" stroke="black" points="1018.21,-514 946.18,-514" style=""/>
+<polyline fill="none" stroke="black" points="1018.21,-514 1018.21,-482" style=""/>
+<polyline fill="none" stroke="black" points="1018.21,-514 1022.21,-518" style=""/>
+<text text-anchor="middle" x="984.19" y="-497" font-family="Arial" font-size="10.00" style="">methods (list)</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0&#45;&gt;root__application__settings__backend__endpoints_list__item_0__methods_list -->
+<g id="edge11" class="edge" data-name="root__application__settings__backend__endpoints_list__item_0-&gt;root__application__settings__backend__endpoints_list__item_0__methods_list">
+
+<path fill="none" stroke="black" d="M812.14,-467.91C844.4,-473.96 899.7,-484.34 938.68,-491.65" style=""/>
+<polygon fill="black" stroke="black" points="937.99,-493.66 944.27,-492.7 938.76,-489.53 937.99,-493.66" style=""/>
+<text text-anchor="middle" x="900.42" y="-491.7" font-family="Arial" font-size="9.00" style="">methods</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0__auth_required_value -->
+<g id="node18" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_0__auth_required_value">
+
+<text text-anchor="middle" x="984.19" y="-432" font-family="Arial" font-size="10.00" style="">True</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0&#45;&gt;root__application__settings__backend__endpoints_list__item_0__auth_required_value -->
+<g id="edge12" class="edge" data-name="root__application__settings__backend__endpoints_list__item_0-&gt;root__application__settings__backend__endpoints_list__item_0__auth_required_value">
+
+<path fill="none" stroke="black" d="M812.31,-455.89C829.39,-451.56 852.19,-446.28 872.64,-443.2 898.52,-439.31 928.1,-437.24 950.14,-436.15" style=""/>
+<polygon fill="black" stroke="black" points="950.2,-438.25 956.09,-435.88 950,-434.05 950.2,-438.25" style=""/>
+<text text-anchor="middle" x="900.42" y="-445.7" font-family="Arial" font-size="9.00" style="">auth_required</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0__methods_list__item_0_value -->
+<g id="node16" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_0__methods_list__item_0_value">
+
+<text text-anchor="middle" x="1090.21" y="-529" font-family="Arial" font-size="10.00" style="">GET</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0__methods_list&#45;&gt;root__application__settings__backend__endpoints_list__item_0__methods_list__item_0_value -->
+<g id="edge9" class="edge" data-name="root__application__settings__backend__endpoints_list__item_0__methods_list-&gt;root__application__settings__backend__endpoints_list__item_0__methods_list__item_0_value">
+
+<path fill="none" stroke="black" d="M1022.45,-511.46C1033.54,-514.88 1045.61,-518.59 1056.4,-521.91" style=""/>
+<polygon fill="black" stroke="black" points="1055.48,-523.82 1061.84,-523.58 1056.72,-519.81 1055.48,-523.82" style=""/>
+<text text-anchor="middle" x="1042.7" y="-519.7" font-family="Arial" font-size="9.00" style="">0</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0__methods_list__item_1_value -->
+<g id="node17" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_0__methods_list__item_1_value">
+
+<text text-anchor="middle" x="1090.21" y="-464" font-family="Arial" font-size="10.00" style="">POST</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_0__methods_list&#45;&gt;root__application__settings__backend__endpoints_list__item_0__methods_list__item_1_value -->
+<g id="edge10" class="edge" data-name="root__application__settings__backend__endpoints_list__item_0__methods_list-&gt;root__application__settings__backend__endpoints_list__item_0__methods_list__item_1_value">
+
+<path fill="none" stroke="black" d="M1022.45,-488.18C1033.54,-484.66 1045.61,-480.83 1056.4,-477.41" style=""/>
+<polygon fill="black" stroke="black" points="1056.76,-479.5 1061.84,-475.68 1055.49,-475.5 1056.76,-479.5" style=""/>
+<text text-anchor="middle" x="1042.7" y="-484.7" font-family="Arial" font-size="9.00" style="">1</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1__path_value -->
+<g id="node20" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_1__path_value">
+
+<text text-anchor="middle" x="984.19" y="-367" font-family="Arial" font-size="10.00" style="">/api/v1/items</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1&#45;&gt;root__application__settings__backend__endpoints_list__item_1__path_value -->
+<g id="edge14" class="edge" data-name="root__application__settings__backend__endpoints_list__item_1-&gt;root__application__settings__backend__endpoints_list__item_1__path_value">
+
+<path fill="none" stroke="black" d="M812.14,-317.97C845.09,-327.99 902.08,-345.33 941.16,-357.21" style=""/>
+<polygon fill="black" stroke="black" points="940.44,-359.19 946.79,-358.93 941.66,-355.17 940.44,-359.19" style=""/>
+<text text-anchor="middle" x="900.42" y="-354.7" font-family="Arial" font-size="9.00" style="">path</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1__methods_list -->
+<g id="node21" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_1__methods_list">
+
+<polygon fill="lightgrey" stroke="black" points="1022.21,-323 950.18,-323 946.18,-319 946.18,-287 1018.21,-287 1022.21,-291 1022.21,-323" style=""/>
+<polyline fill="none" stroke="black" points="1018.21,-319 946.18,-319" style=""/>
+<polyline fill="none" stroke="black" points="1018.21,-319 1018.21,-287" style=""/>
+<polyline fill="none" stroke="black" points="1018.21,-319 1022.21,-323" style=""/>
+<text text-anchor="middle" x="984.19" y="-302" font-family="Arial" font-size="10.00" style="">methods (list)</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1&#45;&gt;root__application__settings__backend__endpoints_list__item_1__methods_list -->
+<g id="edge16" class="edge" data-name="root__application__settings__backend__endpoints_list__item_1-&gt;root__application__settings__backend__endpoints_list__item_1__methods_list">
+
+<path fill="none" stroke="black" d="M812.14,-309.34C844.4,-308.52 899.7,-307.12 938.68,-306.13" style=""/>
+<polygon fill="black" stroke="black" points="938.3,-308.24 944.24,-305.99 938.19,-304.04 938.3,-308.24" style=""/>
+<text text-anchor="middle" x="900.42" y="-309.7" font-family="Arial" font-size="9.00" style="">methods</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1__auth_required_value -->
+<g id="node23" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_1__auth_required_value">
+
+<text text-anchor="middle" x="984.19" y="-237" font-family="Arial" font-size="10.00" style="">False</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1&#45;&gt;root__application__settings__backend__endpoints_list__item_1__auth_required_value -->
+<g id="edge17" class="edge" data-name="root__application__settings__backend__endpoints_list__item_1-&gt;root__application__settings__backend__endpoints_list__item_1__auth_required_value">
+
+<path fill="none" stroke="black" d="M812.14,-300.7C847.75,-288.07 911.45,-265.46 950.26,-251.69" style=""/>
+<polygon fill="black" stroke="black" points="950.83,-253.71 955.78,-249.73 949.42,-249.76 950.83,-253.71" style=""/>
+<text text-anchor="middle" x="900.42" y="-281.7" font-family="Arial" font-size="9.00" style="">auth_required</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1__methods_list__item_0_value -->
+<g id="node22" class="node" pointer-events="visible" data-name="root__application__settings__backend__endpoints_list__item_1__methods_list__item_0_value">
+
+<text text-anchor="middle" x="1090.21" y="-302" font-family="Arial" font-size="10.00" style="">GET</text>
+</g>
+<!-- root__application__settings__backend__endpoints_list__item_1__methods_list&#45;&gt;root__application__settings__backend__endpoints_list__item_1__methods_list__item_0_value -->
+<g id="edge15" class="edge" data-name="root__application__settings__backend__endpoints_list__item_1__methods_list-&gt;root__application__settings__backend__endpoints_list__item_1__methods_list__item_0_value">
+
+<path fill="none" stroke="black" d="M1022.45,-305C1033.33,-305 1045.15,-305 1055.78,-305" style=""/>
+<polygon fill="black" stroke="black" points="1055.77,-307.1 1061.77,-305 1055.77,-302.9 1055.77,-307.1" style=""/>
+<text text-anchor="middle" x="1042.7" y="-307.7" font-family="Arial" font-size="9.00" style="">0</text>
+</g>
+<!-- root__application__plugins_list__item_0 -->
+<g id="node25" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_0">
+
+<polygon fill="lightblue" stroke="black" points="461.14,-269 407.14,-269 407.14,-233 461.14,-233 461.14,-269" style=""/>
+<text text-anchor="middle" x="434.14" y="-248" font-family="Arial" font-size="10.00" style="">item_0</text>
+</g>
+<!-- root__application__plugins_list&#45;&gt;root__application__plugins_list__item_0 -->
+<g id="edge28" class="edge" data-name="root__application__plugins_list-&gt;root__application__plugins_list__item_0">
+
+<path fill="none" stroke="black" d="M335.73,-251C355.37,-251 379.93,-251 399.47,-251" style=""/>
+<polygon fill="black" stroke="black" points="399.45,-253.1 405.45,-251 399.45,-248.9 399.45,-253.1" style=""/>
+<text text-anchor="middle" x="372.12" y="-253.7" font-family="Arial" font-size="9.00" style="">0</text>
+</g>
+<!-- root__application__plugins_list__item_1 -->
+<g id="node32" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_1">
+
+<polygon fill="lightblue" stroke="black" points="461.14,-160 407.14,-160 407.14,-124 461.14,-124 461.14,-160" style=""/>
+<text text-anchor="middle" x="434.14" y="-139" font-family="Arial" font-size="10.00" style="">item_1</text>
+</g>
+<!-- root__application__plugins_list&#45;&gt;root__application__plugins_list__item_1 -->
+<g id="edge33" class="edge" data-name="root__application__plugins_list-&gt;root__application__plugins_list__item_1">
+
+<path fill="none" stroke="black" d="M323.82,-232.51C346.37,-213.84 381.24,-184.97 405.51,-164.87" style=""/>
+<polygon fill="black" stroke="black" points="406.69,-166.63 409.97,-161.18 404.01,-163.39 406.69,-166.63" style=""/>
+<text text-anchor="middle" x="372.12" y="-208.7" font-family="Arial" font-size="9.00" style="">1</text>
+</g>
+<!-- root__application__plugins_list__item_0__name_value -->
+<g id="node26" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_0__name_value">
+
+<text text-anchor="middle" x="598.71" y="-269" font-family="Arial" font-size="10.00" style="">reporting</text>
+</g>
+<!-- root__application__plugins_list__item_0&#45;&gt;root__application__plugins_list__item_0__name_value -->
+<g id="edge22" class="edge" data-name="root__application__plugins_list__item_0-&gt;root__application__plugins_list__item_0__name_value">
+
+<path fill="none" stroke="black" d="M461.62,-254.42C489.41,-258.01 533.18,-263.67 563.55,-267.59" style=""/>
+<polygon fill="black" stroke="black" points="563.25,-269.67 569.46,-268.35 563.78,-265.5 563.25,-269.67" style=""/>
+<text text-anchor="middle" x="509.66" y="-265.7" font-family="Arial" font-size="9.00" style="">name</text>
+</g>
+<!-- root__application__plugins_list__item_0__config -->
+<g id="node27" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_0__config">
+
+<polygon fill="lightblue" stroke="black" points="625.71,-225 571.71,-225 571.71,-189 625.71,-189 625.71,-225" style=""/>
+<text text-anchor="middle" x="598.71" y="-204" font-family="Arial" font-size="10.00" style="">config</text>
+</g>
+<!-- root__application__plugins_list__item_0&#45;&gt;root__application__plugins_list__item_0__config -->
+<g id="edge27" class="edge" data-name="root__application__plugins_list__item_0-&gt;root__application__plugins_list__item_0__config">
+
+<path fill="none" stroke="black" d="M461.62,-243.83C489.61,-236.26 533.82,-224.29 564.21,-216.07" style=""/>
+<polygon fill="black" stroke="black" points="564.53,-218.15 569.78,-214.56 563.43,-214.1 564.53,-218.15" style=""/>
+<text text-anchor="middle" x="509.66" y="-239.7" font-family="Arial" font-size="9.00" style="">config</text>
+</g>
+<!-- root__application__plugins_list__item_0__config__output_dir_value -->
+<g id="node28" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_0__config__output_dir_value">
+
+<text text-anchor="middle" x="784.95" y="-231" font-family="Arial" font-size="10.00" style="">/var/log/complexapp/reports</text>
+</g>
+<!-- root__application__plugins_list__item_0__config&#45;&gt;root__application__plugins_list__item_0__config__output_dir_value -->
+<g id="edge23" class="edge" data-name="root__application__plugins_list__item_0__config-&gt;root__application__plugins_list__item_0__config__output_dir_value">
+
+<path fill="none" stroke="black" d="M626.1,-210.87C647.48,-214 678.7,-218.58 707.74,-222.83" style=""/>
+<polygon fill="black" stroke="black" points="707.33,-224.89 713.57,-223.69 707.94,-220.74 707.33,-224.89" style=""/>
+<text text-anchor="middle" x="677.24" y="-222.7" font-family="Arial" font-size="9.00" style="">output_dir</text>
+</g>
+<!-- root__application__plugins_list__item_0__config__formats_list -->
+<g id="node29" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_0__config__formats_list">
+
+<polygon fill="lightgrey" stroke="black" points="820.45,-187 753.45,-187 749.45,-183 749.45,-151 816.45,-151 820.45,-155 820.45,-187" style=""/>
+<polyline fill="none" stroke="black" points="816.45,-183 749.45,-183" style=""/>
+<polyline fill="none" stroke="black" points="816.45,-183 816.45,-151" style=""/>
+<polyline fill="none" stroke="black" points="816.45,-183 820.45,-187" style=""/>
+<text text-anchor="middle" x="784.95" y="-166" font-family="Arial" font-size="10.00" style="">formats (list)</text>
+</g>
+<!-- root__application__plugins_list__item_0__config&#45;&gt;root__application__plugins_list__item_0__config__formats_list -->
+<g id="edge26" class="edge" data-name="root__application__plugins_list__item_0__config-&gt;root__application__plugins_list__item_0__config__formats_list">
+
+<path fill="none" stroke="black" d="M626.1,-201.56C656.42,-195.3 706.55,-184.96 742.18,-177.61" style=""/>
+<polygon fill="black" stroke="black" points="742.17,-179.76 747.62,-176.49 741.32,-175.65 742.17,-179.76" style=""/>
+<text text-anchor="middle" x="677.24" y="-196.7" font-family="Arial" font-size="9.00" style="">formats</text>
+</g>
+<!-- root__application__plugins_list__item_0__config__formats_list__item_0_value -->
+<g id="node30" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_0__config__formats_list__item_0_value">
+
+<text text-anchor="middle" x="984.19" y="-167" font-family="Arial" font-size="10.00" style="">pdf</text>
+</g>
+<!-- root__application__plugins_list__item_0__config__formats_list&#45;&gt;root__application__plugins_list__item_0__config__formats_list__item_0_value -->
+<g id="edge24" class="edge" data-name="root__application__plugins_list__item_0__config__formats_list-&gt;root__application__plugins_list__item_0__config__formats_list__item_0_value">
+
+<path fill="none" stroke="black" d="M820.76,-169.18C857.21,-169.36 914.03,-169.65 949.9,-169.83" style=""/>
+<polygon fill="black" stroke="black" points="949.7,-171.93 955.71,-169.86 949.72,-167.73 949.7,-171.93" style=""/>
+<text text-anchor="middle" x="900.42" y="-171.7" font-family="Arial" font-size="9.00" style="">0</text>
+</g>
+<!-- root__application__plugins_list__item_0__config__formats_list__item_1_value -->
+<g id="node31" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_0__config__formats_list__item_1_value">
+
+<text text-anchor="middle" x="984.19" y="-102" font-family="Arial" font-size="10.00" style="">csv</text>
+</g>
+<!-- root__application__plugins_list__item_0__config__formats_list&#45;&gt;root__application__plugins_list__item_0__config__formats_list__item_1_value -->
+<g id="edge25" class="edge" data-name="root__application__plugins_list__item_0__config__formats_list-&gt;root__application__plugins_list__item_0__config__formats_list__item_1_value">
+
+<path fill="none" stroke="black" d="M820.76,-157.71C857.36,-145.83 914.51,-127.29 950.35,-115.66" style=""/>
+<polygon fill="black" stroke="black" points="950.72,-117.74 955.78,-113.89 949.43,-113.75 950.72,-117.74" style=""/>
+<text text-anchor="middle" x="900.42" y="-142.7" font-family="Arial" font-size="9.00" style="">1</text>
+</g>
+<!-- root__application__plugins_list__item_1__name_value -->
+<g id="node33" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_1__name_value">
+
+<text text-anchor="middle" x="598.71" y="-139" font-family="Arial" font-size="10.00" style="">authentication</text>
+</g>
+<!-- root__application__plugins_list__item_1&#45;&gt;root__application__plugins_list__item_1__name_value -->
+<g id="edge29" class="edge" data-name="root__application__plugins_list__item_1-&gt;root__application__plugins_list__item_1__name_value">
+
+<path fill="none" stroke="black" d="M461.62,-142C486.17,-142 523.21,-142 552.45,-142" style=""/>
+<polygon fill="black" stroke="black" points="552.19,-144.1 558.19,-142 552.19,-139.9 552.19,-144.1" style=""/>
+<text text-anchor="middle" x="509.66" y="-144.7" font-family="Arial" font-size="9.00" style="">name</text>
+</g>
+<!-- root__application__plugins_list__item_1__config -->
+<g id="node34" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_1__config">
+
+<polygon fill="lightblue" stroke="black" points="625.71,-95 571.71,-95 571.71,-59 625.71,-59 625.71,-95" style=""/>
+<text text-anchor="middle" x="598.71" y="-74" font-family="Arial" font-size="10.00" style="">config</text>
+</g>
+<!-- root__application__plugins_list__item_1&#45;&gt;root__application__plugins_list__item_1__config -->
+<g id="edge32" class="edge" data-name="root__application__plugins_list__item_1-&gt;root__application__plugins_list__item_1__config">
+
+<path fill="none" stroke="black" d="M461.19,-131.43C467.09,-129.05 473.33,-126.53 479.14,-124.2 507.96,-112.63 540.76,-99.58 564.55,-90.14" style=""/>
+<polygon fill="black" stroke="black" points="565.11,-92.18 569.91,-88.01 563.56,-88.28 565.11,-92.18" style=""/>
+<text text-anchor="middle" x="509.66" y="-126.7" font-family="Arial" font-size="9.00" style="">config</text>
+</g>
+<!-- root__application__plugins_list__item_1__config__provider_value -->
+<g id="node35" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_1__config__provider_value">
+
+<text text-anchor="middle" x="784.95" y="-80" font-family="Arial" font-size="10.00" style="">ldap</text>
+</g>
+<!-- root__application__plugins_list__item_1__config&#45;&gt;root__application__plugins_list__item_1__config__provider_value -->
+<g id="edge30" class="edge" data-name="root__application__plugins_list__item_1__config-&gt;root__application__plugins_list__item_1__config__provider_value">
+
+<path fill="none" stroke="black" d="M626.1,-77.86C658.99,-78.93 715.19,-80.76 750.9,-81.92" style=""/>
+<polygon fill="black" stroke="black" points="750.62,-84.02 756.68,-82.11 750.75,-79.82 750.62,-84.02" style=""/>
+<text text-anchor="middle" x="677.24" y="-82.7" font-family="Arial" font-size="9.00" style="">provider</text>
+</g>
+<!-- root__application__plugins_list__item_1__config__server_value -->
+<g id="node36" class="node" pointer-events="visible" data-name="root__application__plugins_list__item_1__config__server_value">
+
+<text text-anchor="middle" x="784.95" y="-15" font-family="Arial" font-size="10.00" style="">ldap.example.com</text>
+</g>
+<!-- root__application__plugins_list__item_1__config&#45;&gt;root__application__plugins_list__item_1__config__server_value -->
+<g id="edge31" class="edge" data-name="root__application__plugins_list__item_1__config-&gt;root__application__plugins_list__item_1__config__server_value">
+
+<path fill="none" stroke="black" d="M626.1,-68.55C652.95,-59.95 695.33,-46.38 729.43,-35.46" style=""/>
+<polygon fill="black" stroke="black" points="730.05,-37.46 735.12,-33.63 728.77,-33.46 730.05,-37.46" style=""/>
+<text text-anchor="middle" x="677.24" y="-60.7" font-family="Arial" font-size="9.00" style="">server</text>
+</g>
+</g>
+</svg>

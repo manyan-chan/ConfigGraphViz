@@ -1,0 +1,47 @@
+digraph "example.toml" {
+  rankdir=LR; // Rank direction Left to Right
+  graph [fontsize=12, fontname="Arial", labeljust=l, ranksep=0.5, nodesep=0.4];
+  node [fontsize=10, fontname="Arial"];
+  edge [fontsize=9, fontname="Arial", arrowsize=0.6];
+  "root" [label="(root)", shape=box, style=filled, fillcolor=lightblue];
+  "root__title_value" [label="TOML Example", shape=plaintext];
+  "root" -> "root__title_value" [label="title"];
+  "root__owner" [label="owner", shape=box, style=filled, fillcolor=lightblue];
+  "root__owner__name_value" [label="Tom Preston-Werner", shape=plaintext];
+  "root__owner" -> "root__owner__name_value" [label="name"];
+  "root__owner__dob_value" [label="1979-05-27 07:32:00-08:00", shape=plaintext];
+  "root__owner" -> "root__owner__dob_value" [label="dob"];
+  "root" -> "root__owner" [label="owner"];
+  "root__database" [label="database", shape=box, style=filled, fillcolor=lightblue];
+  "root__database__server_value" [label="192.168.1.1", shape=plaintext];
+  "root__database" -> "root__database__server_value" [label="server"];
+  "root__database__ports_list" [label="ports (list)", shape=box3d, style=filled, fillcolor=lightgrey];
+  "root__database__ports_list__item_0_value" [label="8000", shape=plaintext];
+  "root__database__ports_list" -> "root__database__ports_list__item_0_value" [label="0"];
+  "root__database__ports_list__item_1_value" [label="8001", shape=plaintext];
+  "root__database__ports_list" -> "root__database__ports_list__item_1_value" [label="1"];
+  "root__database__ports_list__item_2_value" [label="8002", shape=plaintext];
+  "root__database__ports_list" -> "root__database__ports_list__item_2_value" [label="2"];
+  "root__database" -> "root__database__ports_list" [label="ports"];
+  "root__database__connection_max_value" [label="5000", shape=plaintext];
+  "root__database" -> "root__database__connection_max_value" [label="connection_max"];
+  "root__database__enabled_value" [label="True", shape=plaintext];
+  "root__database" -> "root__database__enabled_value" [label="enabled"];
+  "root" -> "root__database" [label="database"];
+  "root__servers" [label="servers", shape=box, style=filled, fillcolor=lightblue];
+  "root__servers__alpha" [label="alpha", shape=box, style=filled, fillcolor=lightblue];
+  "root__servers__alpha__ip_value" [label="10.0.0.1", shape=plaintext];
+  "root__servers__alpha" -> "root__servers__alpha__ip_value" [label="ip"];
+  "root__servers__alpha__dc_value" [label="eqdc10", shape=plaintext];
+  "root__servers__alpha" -> "root__servers__alpha__dc_value" [label="dc"];
+  "root__servers" -> "root__servers__alpha" [label="alpha"];
+  "root__servers__beta" [label="beta", shape=box, style=filled, fillcolor=lightblue];
+  "root__servers__beta__ip_value" [label="10.0.0.2", shape=plaintext];
+  "root__servers__beta" -> "root__servers__beta__ip_value" [label="ip"];
+  "root__servers__beta__dc_value" [label="eqdc10", shape=plaintext];
+  "root__servers__beta" -> "root__servers__beta__dc_value" [label="dc"];
+  "root__servers__beta__country_value" [label="CN", shape=plaintext];
+  "root__servers__beta" -> "root__servers__beta__country_value" [label="country"];
+  "root__servers" -> "root__servers__beta" [label="beta"];
+  "root" -> "root__servers" [label="servers"];
+}
