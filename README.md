@@ -125,42 +125,33 @@ users:
     role: user
 ```
 
-Running the script will produce a `.dot` file. Rendering `example.dot` with `dot -Tpng example.dot -o example.png` might produce an image similar to this concept (actual layout depends on Graphviz):
+Running the script will produce a `.dot` file. Rendering `example.yaml.dot` with `dot -Tpng example.yaml.dot -o example.yaml.png` produces the actual graph image using Graphviz.
+
+The following **Mermaid diagram illustrates the *concept*** of the generated structure (Note: This is Mermaid syntax for demonstration in Markdown, not the DOT output itself. Actual layout by Graphviz may differ):
 
 ```mermaid
 graph LR
-    root["root"] --&gt; server["server\n(section)"];
-    root --&gt; database["database\n(section)"];
-    root --&gt; users["users\n(list)"];
+    root("(root)") --> server("server\n(section)");
+    root --> database("database\n(section)");
+    root --> users("users\n(list)");
 
-    server --&gt; server_host["host: '192.168.1.100'"];
-    server --&gt; server_port["port: 8080"];
-    server --&gt; server_retry["retry_options\n(section)"];
-    server_retry --&gt; server_retry_attempts["attempts: 3"];
-    server_retry --&gt; server_retry_delay["delay: 5"];
+    server --> server_host("host: '192.168.1.100'");
+    server --> server_port("port: 8080");
+    server --> server_retry("retry_options\n(section)");
+    server_retry --> server_retry_attempts("attempts: 3");
+    server_retry --> server_retry_delay("delay: 5");
 
-    database --&gt; database_type["type: 'postgresql'"];
-    database --&gt; database_connection["connection: '...'"];
-    database --&gt; database_pool["pool_size: 10"];
+    database --> database_type("type: 'postgresql'");
+    database --> database_connection("connection: '...'");
+    database --> database_pool("pool_size: 10");
 
-    users --&gt; users_0["0\n(item)"];
-    users --&gt; users_1["1\n(item)"];
-    users_0 --&gt; users_0_name["name: 'alice'"];
-    users_0 --&gt; users_0_role["role: 'admin'"];
-    users_1 --&gt; users_1_name["name: 'bob'"];
-    users_1 --&gt; users_1_role["role: 'user'"];
-
-    style root fill:#lightblue,stroke:#333,stroke-width:2px
-    style server fill:#lightblue,stroke:#333,stroke-width:2px
-    style server_retry fill:#lightblue,stroke:#333,stroke-width:2px
-    style database fill:#lightblue,stroke:#333,stroke-width:2px
-    style users fill:#lightgrey,stroke:#333,stroke-width:2px
-    style users_0 fill:#lightgrey,stroke:#333,stroke-width:2px
-    style users_1 fill:#lightgrey,stroke:#333,stroke-width:2px
-
+    users --> users_0("0\n(item)");
+    users --> users_1("1\n(item)");
+    users_0 --> users_0_name("name: 'alice'");
+    users_0 --> users_0_role("role: 'admin'");
+    users_1 --> users_1_name("name: 'bob'");
+    users_1 --> users_1_role("role: 'user'");
 ```
-*(Note: Mermaid diagram used here for conceptual illustration. Actual output is DOT language for Graphviz.)*
-
 
 ## Testing
 
