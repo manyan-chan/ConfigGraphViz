@@ -1,0 +1,25 @@
+server:
+  host: "192.168.1.100"
+  port: 8080
+  enabled: true
+  description: null # Null value
+  retry_options:
+    attempts: 3
+    delay: 5
+
+database:
+  type: postgresql
+  connection: "psql://user:pass@host:port/db"
+  pool_size: 10
+
+users:
+  - name: alice
+    role: admin
+    tags: [internal, privileged]
+  - name: bob
+    role: user
+    tags: [external]
+
+features:
+  feature_a: true
+  feature_b: false

@@ -1,0 +1,27 @@
+# Example with more nesting and lists
+application:
+  name: ComplexApp
+  version: 1.2.3
+  settings:
+    ui:
+      theme: dark
+      font_size: 12
+    backend:
+      threads: 4
+      cache_enabled: true
+      endpoints:
+        - path: /api/v1/users
+          methods: [GET, POST]
+          auth_required: true
+        - path: /api/v1/items
+          methods: [GET]
+          auth_required: false
+  plugins:
+    - name: reporting
+      config:
+        output_dir: /var/log/complexapp/reports
+        formats: ["pdf", "csv"]
+    - name: authentication
+      config:
+        provider: ldap
+        server: ldap.example.com
